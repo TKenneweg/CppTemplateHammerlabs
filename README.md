@@ -7,7 +7,7 @@ The intended workflow is as follows:
 1. Run "runCmake.sh" once with the name of you cpp file that includes your main function as an argument. 
 The cpp file should be located in in mainfiles/. This will create a complete configuration
 in a folder called build{nameofyourmainfile}. If this folder does not exist yet, create it
-in the same folder as the script. This will also save the name of the cpp file in CurrentExecutable.txt
+in the same folder as the script. "runCmake.sh" will also save the name of the cpp file in CurrentExecutable.txt
 
 2. Run "compileAndRun.sh" to compile and run your project. Every time you change code you just run the script. 
 If you add additional file in src/ you need to rerun "runCmake.sh". 
