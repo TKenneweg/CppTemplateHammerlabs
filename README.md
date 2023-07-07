@@ -9,12 +9,13 @@ The cpp file should be located in in mainfiles/. This will create a complete con
 in a folder called build{nameofyourmainfile}. If this folder does not exist yet, create it
 in the same folder as the script. "runCmake.sh" will also save the name of the cpp file in CurrentExecutable.txt
 
-2. Run "compileAndRun.sh" to compile and run your project. Every time you change code you just run the script. 
-If you add additional file in src/ you need to rerun "runCmake.sh". 
+2. Run "compileAndRun.sh" to compile and run your project. Every time you change code you just run this script. 
+If you add additional files in src/ you need to rerun "runCmake.sh". 
 
 
 - main.cpp contains an example using a 3rd party library (opencv)
 - test.cpp is just a hello world example
 - in src/ there is a very simple adder example you can use in test or main
+- requirements.txt contain the installs you would need on a typical ubuntu system.
 
 For questions on how to use this template contact Tristan. 
